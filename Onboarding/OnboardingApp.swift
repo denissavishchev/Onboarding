@@ -11,7 +11,7 @@ import SwiftUI
 struct OnboardingApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(steps: 5, currentStep: .constant(0))
         }
     }
 }
