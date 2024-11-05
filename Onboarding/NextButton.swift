@@ -28,7 +28,7 @@ struct NextButton: View {
                 .font(.largeTitle)
                 .offset(x: -92, y: -40)
         }
-        .frame(maxWidth: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/, maxHeight: .infinity, alignment: .bottomTrailing)
+        .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .bottomTrailing)
         .offset(x: 150, y: 150).scaleEffect(show ? 1 : 0, anchor: .bottomTrailing)
         .onTapGesture {
             action()

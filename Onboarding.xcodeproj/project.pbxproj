@@ -57,10 +57,10 @@
 			children = (
 				F291552B2CD88477002B8534 /* OnboardingApp.swift */,
 				F291552D2CD88477002B8534 /* ContentView.swift */,
+				F291553B2CD88C9D002B8534 /* OnboardingView.swift */,
+				F29155392CD88780002B8534 /* NextButton.swift */,
 				F291552F2CD8847A002B8534 /* Assets.xcassets */,
 				F29155312CD8847A002B8534 /* Preview Content */,
-				F29155392CD88780002B8534 /* NextButton.swift */,
-				F291553B2CD88C9D002B8534 /* OnboardingView.swift */,
 			);
 			path = Onboarding;
 			sourceTree = "<group>";
